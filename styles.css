@@ -1,0 +1,54 @@
+body {
+    background-color: #f8edeb;
+    color: #02040f;
+    font-family: 'Quicksand', sans-serif;
+}
+hr {
+    border-style: dotted none none ;
+    border-color: #7a4d53;
+    border-width: 5px;
+    width: 5%;
+}
+h1 {
+    font-family: 'Sacramento', cursive;
+    color: #b9375e;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3 {
+    font-family: 'Ibarra Real Nova', serif;
+    color: #98003a;
+}
+.btn {
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: Ibarra Real Nova;
+    color: #EFDD8D;
+    font-size: 20px;
+    background: #0F1020;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.bottom-container{
+    background-image: linear-gradient(#f7e3af, #efd28d);
+    padding: 40px 0 20px;
+    text-align: center;
+}
+.button{
+    padding: 20px 0 40px;
+    text-align: center;
+    animation: 0 1px 2px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.copyright{
+    padding: 20px 0 10px;
+    text-align: center;
+}
+a{
+    color: #98003a;
+    margin: 10px 20px;
+}
+a:hover{
+    color: #b9375e;
+}
