@@ -1,7 +1,8 @@
 body {
-    background-color: #f8edeb;
-    color: #02040f;
+    background-color: #fce5dd;
+    color: #161925;
     font-family: 'Quicksand', sans-serif;
+    margin: 0;
 }
 hr {
     border-style: dotted none none ;
@@ -12,31 +13,53 @@ hr {
 h1 {
     font-family: 'Sacramento', cursive;
     color: #b9375e;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
+    margin-bottom: 10px;
 }
 h3 {
     font-family: 'Ibarra Real Nova', serif;
     color: #98003a;
+    font-size: 1.5rem;
+    margin-left: 10px;
 }
 .btn {
     -webkit-border-radius: 15;
     -moz-border-radius: 15;
     border-radius: 15px;
-    font-family: Ibarra Real Nova;
-    color: #EFDD8D;
+    font-family: 'Quicksand', sans-serif;
+    color: #f8edeb;
     font-size: 20px;
-    background: #0F1020;
+    background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    border-radius: 10px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-size: 300% 100%
+}
+.btn:hover{
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    color: #f8e9c6;
+}
+.btn:focus{
+    outline: none;
 }
 .bottom-container{
-    background-image: linear-gradient(#f7e3af, #efd28d);
-    padding: 40px 0 20px;
+    background-image: radial-gradient(#f7e3af, #efd28d);
+    padding: 30px 0 20px;
     text-align: center;
+    opacity: 95%;
 }
 .button{
-    padding: 20px 0 40px;
+    padding: 30px 0 40px;
     text-align: center;
     animation: 0 1px 2px;
     transition: box-shadow 0.3s ease-in-out;
@@ -45,10 +68,20 @@ h3 {
     padding: 20px 0 10px;
     text-align: center;
 }
-a{
-    color: #98003a;
-    margin: 10px 20px;
+.fa {
+    padding: 20px;
+    font-size: 0px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    scale: 2;
+    color: #71002b;
 }
-a:hover{
-    color: #b9375e;
+.fa:hover {
+    opacity: 0.7;
+}
+.quote {
+    scale: 1.5;
+    padding-left: 17%;
+    color: #72a895;
 }
